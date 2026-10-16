@@ -84,5 +84,5 @@ small whole-token rule for Arkadeep/Sir references. It does not understand
 arbitrary language, use generative AI, access the network, or retain persistent
 memory between (or during) sessions.
 
-See [the requirements and design document](docs/requirements-and-design.md)
+See [the requirements and design document](requirements-and-design.md)
 for the complete v1 behavior contract.

@@ -225,7 +225,7 @@ def normalize_message(raw: str) -> str:
     ``what's`` match while surrounding quote marks become separators.
     """
 
-    if not isinstance(raw, str):
+    if not isinstance(raw, str):  # pyright: ignore[reportUnnecessaryIsInstance]
         raise TypeError("raw must be a string")
 
     normalized = (
